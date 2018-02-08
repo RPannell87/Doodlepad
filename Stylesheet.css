@@ -1,0 +1,13 @@
+#container {
+  display: grid;
+  margin: auto;
+}
+
+.grid-div::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+#pagename {
+  text-align: center;
+}
